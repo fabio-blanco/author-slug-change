@@ -1,0 +1,22 @@
+.asc-form-field>label {
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    width: 200px;
+}
+
+.asc-form-field>p.description {
+    margin-top: 4px;
+}
+
+@media screen and (min-width: 782px) {
+    .asc-form-field>p.description {
+        padding-left: 204px;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .asc-form-field>input.regular-text {
+        width: 100%;
+    }
+}
